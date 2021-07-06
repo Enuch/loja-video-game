@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja video game</title>
+</head>
+<body>
+    <h1>CADASTRO DE CONSOLES</h1>
+    <form action="/cadastrarProduto" method="POST">
+        Serie: <input type="number" name="serie">
+        Nome:  <input type="text" name="nome"> <br> <br>
+        Edicao: <input type="text" name="edicao">
+        Modelo: <select name="modelo">
+            <option value="slim">Slim</option>
+            <option value="fat">Fat</option>
+        </select> 
+        Cor: <select name="cor">
+            <option value="branco">Branco</option>
+            <option value="preto">Preto</option>
+        </select> 
+        <button type="submit">Cadastrar</button>
+    </form>
+</body>
+</html>

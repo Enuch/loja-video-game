@@ -1,6 +1,5 @@
 package web.loja.models;
 
-
 public class VideoGame {
     private Integer codigo;
     private Integer serie;
